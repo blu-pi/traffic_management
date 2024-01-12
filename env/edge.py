@@ -1,7 +1,6 @@
-from env.node import Node
 
 class Edge:
 
-    def __init__(self, origin: Node, destination: Node) -> None:
+    def __init__(self, origin : 'Node', destination: 'Node') -> None:
         self.orig = origin
         self.dest = destination
